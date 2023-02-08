@@ -1,0 +1,49 @@
+#notice-item {
+	width: 100%;
+	height: 25px;
+	line-height: 25px;
+  }
+  #notice-item .li-style {
+	width: 100%;
+	height: 25px;
+	font-weight: 500;
+	text-align: center;
+	-webkit-line-clamp: 1;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	transition: 0.3s;
+  }
+  #noticeList {
+	width: 100%;
+	background: #919fadd9;
+	color: #f6f8fa;
+	margin-top: 1rem;
+	padding: 0.6rem 1rem;
+	border-radius: 12px;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	margin-bottom: 15px;
+  }
+  #noticeList .nlogo{
+	color: #f6f8fa;
+	font-weight: 600;
+	display: inline;
+  }
+  #noticeList .swiper-container{
+	display: flex;
+	flex: 1;
+    color: #f6f8fa;
+  }
+  #noticeList i {
+	text-align: right;
+    color: #f6f8fa;
+  }
+  .swiper-slide:hover {
+	color: #abfffb;
+	font-size: 18px;
+  }
+ a {
+    color: #f6f8fa;
+ }
