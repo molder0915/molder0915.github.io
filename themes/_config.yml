@@ -3,12 +3,12 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: '阿散'
-subtitle: '散散不知道哦'
-description: '欢迎来到我的博客\(^o^)/~'
+title: Hexo
+subtitle: ''
+description: ''
 keywords:
-author: molder
-language: zh-CN
+author: John Doe
+language: en
 timezone: Asia/Shanghai
 
 # URL
@@ -62,7 +62,7 @@ prismjs:
 # order_by: Posts order. (Order by date descending by default)
 index_generator:
   path: ''
-  per_page: 12
+  per_page: 10
   order_by: -date
 
 # Category & Tag
@@ -105,30 +105,4 @@ deploy:
   type: git
   repository: https://github.com/molder0915/molder0915.github.io.git
   branch: main
-#搜索设置
-search:
-  path: search.xml
-  field: post # post:文章范围、page:页面范围、all:覆盖所有
-  content: true # 内容是否包含每一篇文章的全部内容
-  template:  # ./search.xml 指定定制的XML模板
-
-  #双栏美化
-butterfly_article_double_row:
-  enable: true
-
-douban:
-  id: 233954703
-  builtin: false
-  item_per_page: 10
-  book:
-    path: books/index.html
-    title: '书籍阅读'
-    quote: '哒哒哒'
-    option:
-  movie:
-    path: movies/index.html
-    title: '观影记录'
-    quote: '啦啦啦啦'
-    option:
-  timeout: 10000 
 
