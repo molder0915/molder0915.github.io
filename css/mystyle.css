@@ -129,3 +129,43 @@
     height: 15px;
 }
 
+
+/* 横向子菜单 */
+.menus_item_child li:not(#sidebar-menus li){
+    float: left;
+    border-radius: 6px!important;
+    -webkit-border-radius: 6px!important;
+    -moz-border-radius: 6px!important;
+    -ms-border-radius: 6px!important;
+    -o-border-radius: 6px!important;
+}
+.menus_item_child:not(#sidebar-menus ul){
+  /*
+    left:calc(-150%)!important;这是估算值，为了保持元素居中的，如果不合适可以自己调
+  改为：*/
+  left:50%;
+  translate:-50%;
+}
+
+/* 搜索栏样式 */
+ /* .search-dialog {
+	color: #646459;
+} */
+.search-dialog .search-nav{
+	color: #454c53;
+}
+ #local-search .search-dialog .local-search-box input{
+	border: 2px solid #828d99;
+}
+ .search-dialog hr{
+	border: 2px dashed #828d99;
+}
+hr:before{
+ color: #596673 ;
+}
+#local-search .search-dialog .local-search__hit-item:before{
+	border-color: #596673 !important ;
+}
+#local-search .search-dialog .local-search__hit-item a:hover{
+	color: #ff7242;
+}

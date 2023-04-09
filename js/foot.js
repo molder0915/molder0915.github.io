@@ -26,3 +26,19 @@ minsold=Math.floor((e_hrsold-hrsold)*60);
 seconds=Math.floor((e_minsold-minsold)*60);
 span_dt_dt.innerHTML='<font style=color:#afb4db>'+daysold+'</font> 天 <font style=color:#f391a9>'+hrsold+'</font> 时 <font style=color:#fdb933>'+minsold+'</font> 分 <font style=color:#a3cf62>'+seconds+'</font> 秒';
 }
+
+
+// 适配移动端
+
+    /* 手机打开提示 */
+     var mobileAgent = new Array("iphone", "ipod", "ipad", "android", "mobile", "blackberry", "webos", "incognito", "webmate", "bada", "nokia", "lg", "ucweb", "skyfire");
+     var browser = navigator.userAgent.toLowerCase();
+     var isMobile = false;
+     for (var i = 0; i < mobileAgent.length; i++) {
+         if (browser.indexOf(mobileAgent[i]) != -1) {
+             isMobile = true;
+             alert("本博客手机打开不适配，建议使用电脑访问效果最佳！点击确定继续使用手机浏览");
+             break;
+         }
+     }
+     
