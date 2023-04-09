@@ -193,3 +193,9 @@ hr:before{
 .recent-posts .recent-post-item .recent-post-content.right .article-content{
     background-color:#919ba5
 }
+
+/* 代码高度限制样式 */
+#article-container .code-expand-btn i{
+	font-size: 18px;
+	color: #4c49489e;
+}
