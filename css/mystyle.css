@@ -199,3 +199,8 @@ hr:before{
 	font-size: 18px;
 	color: #4c49489e;
 }
+
+/* 分页小图标颜色样式 */
+.card-widget, .layout > .recent-posts .pagination > *:not(.space){
+   background: #00c4b6;
+}
